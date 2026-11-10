@@ -2,30 +2,30 @@
   "plugins": [
     {
       "id": "notepad",
-      "name": "记事本",
-      "version": "1.0.0",
-      "description": "在记事本里写字、读取内容、保存",
+      "name": "Notepad",
+      "version": "1.1.0",
+      "description": "Write, read and save text in Notepad",
       "author": "Aeri",
       "file": "notepad/PLUGIN.md",
-      "sha256": "cfc0be702b4ee03a1094574f5d9df646d9869769ac82e84af660cf9967ac145b"
+      "sha256": "01fadc8f2235fb8e16267af6d30e2c5b60b420d6deaeacd318788685d5718f7d"
     },
     {
       "id": "obsidian",
       "name": "Obsidian",
-      "version": "1.0.0",
-      "description": "新建笔记、追加到每日笔记、打开或搜索笔记，用 Obsidian 自带的链接协议，不用点界面",
+      "version": "1.1.0",
+      "description": "Create notes, append daily notes, open and search notes using Obsidian links",
       "author": "Aeri",
       "file": "obsidian/PLUGIN.md",
-      "sha256": "dc4dd7db0299fefe4584459f3c34fc17e8390a340538e4571b518c34318b1304"
+      "sha256": "cc582dfa00eadc02d3c46bec9242cc4d480aa4b43e6fe39e5e389425958fbebc"
     },
     {
       "id": "siyuan",
-      "name": "思源笔记",
-      "version": "1.0.1",
-      "description": "记笔记、追加到今天的日记、新建文档、搜索笔记，直接走思源的本机接口，不用点界面",
+      "name": "SiYuan",
+      "version": "1.1.0",
+      "description": "Write notes, append daily notes, create documents and search using SiYuan's local API",
       "author": "Aeri",
       "file": "siyuan/PLUGIN.md",
-      "sha256": "c2df3f811b1a15bf9436a392541a65f158cf97524801c59e376bc825697dc127"
+      "sha256": "c8a8c68407e4f2c8ea08f14e054f7ca4257c9397b82789942442f00501c9505e"
     }
   ]
 }
