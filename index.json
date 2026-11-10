@@ -21,11 +21,11 @@
     {
       "id": "siyuan",
       "name": "思源笔记",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "description": "记笔记、追加到今天的日记、新建文档、搜索笔记，直接走思源的本机接口，不用点界面",
       "author": "Aeri",
       "file": "siyuan/PLUGIN.md",
-      "sha256": "1b1eeb52d52240b9ce2f101a998370056cb0e2545c2f9026b78efc44a86ebe6a"
+      "sha256": "1de28993e29e09c32ac030269adcaf1070b8947163da2087e4fde868c3f84c73"
     }
   ]
 }

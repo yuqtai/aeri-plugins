@@ -1,7 +1,7 @@
 ---
 id: siyuan
 name: 思源笔记
-version: 1.0.0
+version: 1.0.1
 description: 记笔记、追加到今天的日记、新建文档、搜索笔记，直接走思源的本机接口，不用点界面
 match: SiYuan.exe
 keywords: 思源, siyuan
@@ -13,6 +13,8 @@ author: Aeri
 - method 用 POST，url 是 `http://127.0.0.1:6806/api/...`
 - headers：`{"Authorization": "Token {{secret:~/.config/siyuan/workspace.json#/0|/conf/conf.json#/api/token}}"}`（令牌由 Aeri 在本机读取后填进去，你看不到它，原样照抄这串即可）
 - body 是 JSON；返回里 `code` 为 0 表示成功，内容在 `data` 里
+- Markdown 内容里的换行就是普通换行，不要写成字面的 `
+`，结尾也不要多加换行符
 
 常用做法：
 1. **记到今天的日记**（用户只说“记到思源里”时用这个）：
