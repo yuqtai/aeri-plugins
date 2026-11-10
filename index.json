@@ -1,0 +1,31 @@
+{
+  "plugins": [
+    {
+      "id": "notepad",
+      "name": "记事本",
+      "version": "1.0.0",
+      "description": "在记事本里写字、读取内容、保存",
+      "author": "Aeri",
+      "file": "notepad/PLUGIN.md",
+      "sha256": "cfc0be702b4ee03a1094574f5d9df646d9869769ac82e84af660cf9967ac145b"
+    },
+    {
+      "id": "obsidian",
+      "name": "Obsidian",
+      "version": "1.0.0",
+      "description": "新建笔记、追加到每日笔记、打开或搜索笔记，用 Obsidian 自带的链接协议，不用点界面",
+      "author": "Aeri",
+      "file": "obsidian/PLUGIN.md",
+      "sha256": "dc4dd7db0299fefe4584459f3c34fc17e8390a340538e4571b518c34318b1304"
+    },
+    {
+      "id": "siyuan",
+      "name": "思源笔记",
+      "version": "1.0.0",
+      "description": "记笔记、追加到今天的日记、新建文档、搜索笔记，直接走思源的本机接口，不用点界面",
+      "author": "Aeri",
+      "file": "siyuan/PLUGIN.md",
+      "sha256": "1b1eeb52d52240b9ce2f101a998370056cb0e2545c2f9026b78efc44a86ebe6a"
+    }
+  ]
+}
